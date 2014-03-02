@@ -1,0 +1,4 @@
+sessionWarrior
+==============
+
+Gra na zaliczenie :)
