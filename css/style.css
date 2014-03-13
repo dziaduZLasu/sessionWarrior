@@ -1,0 +1,16 @@
+/* 
+    Created on : 2014-03-12, 21:12:14
+    Author     : krzysztof
+*/
+#assets{display: none;}
+#container{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width:640px;
+    height:480px;
+}
+#preloaderImage{
+    display: block;
+    margin: 30% auto;
+}

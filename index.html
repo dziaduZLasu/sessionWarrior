@@ -9,8 +9,20 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="container">
+            <img src = "img/12.gif" id="preloaderImage">
+            <canvas id="gameScreen"></canvas>
+            
+        </div>
+        <!--Tu wstawiamy wszystkie pliki img i linki do skryptów każdy obrazek musi mieć podany atrybut id-->
+        <div id="assets"></div>
+        <script src="js/model/entity/MenuEntity.js"></script>
+        <script src="js/model/entity/HudEntity.js"></script>
+        <script src="js/engine/Hud.js"></script>
+        <!--Ten plik załączonyu ma być na końcu - w nim są główne instrukcje gry-->
+        <script src="js/main.js"></script>
     </body>
 </html>
